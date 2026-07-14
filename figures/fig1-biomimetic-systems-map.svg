@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="620" fill="#ffffff"/>
+  <text x="40" y="40" font-size="24" font-weight="bold" fill="#1a2b34">Figure 1: The Biomimetic Systems Map</text>
+
+  <!-- Horizontal 5-stage chevron flow -->
+  <g font-size="12.5">
+    <!-- Stage 1 -->
+    <polygon points="40,70 190,70 208,100 190,130 40,130 58,100" fill="#17627a"/>
+    <text x="120" y="97" fill="#ffffff" text-anchor="middle">Biological</text>
+    <text x="120" y="112" fill="#ffffff" text-anchor="middle">mechanism</text>
+    <!-- Stage 2 -->
+    <polygon points="196,70 346,70 364,100 346,130 196,130 214,100" fill="#17627a"/>
+    <text x="278" y="97" fill="#ffffff" text-anchor="middle">Invariant it</text>
+    <text x="278" y="112" fill="#ffffff" text-anchor="middle">maintains</text>
+    <!-- Stage 3 -->
+    <polygon points="352,70 502,70 520,100 502,130 352,130 370,100" fill="#17627a"/>
+    <text x="434" y="104" fill="#ffffff" text-anchor="middle">Systems property</text>
+    <!-- Stage 4 -->
+    <polygon points="508,70 658,70 676,100 658,130 508,130 526,100" fill="#17627a"/>
+    <text x="590" y="97" fill="#ffffff" text-anchor="middle">Engineering</text>
+    <text x="590" y="112" fill="#ffffff" text-anchor="middle">analogue</text>
+    <!-- Stage 5 -->
+    <polygon points="664,70 840,70 840,130 664,130 682,100" fill="#c8922e"/>
+    <text x="758" y="97" fill="#ffffff" text-anchor="middle">Open</text>
+    <text x="758" y="112" fill="#ffffff" text-anchor="middle">research gap</text>
+  </g>
+
+  <!-- Table -->
+  <g font-size="13">
+    <!-- Column geometry: 5 columns across 800px starting at x=40 -->
+    <!-- Header -->
+    <rect x="40" y="170" width="800" height="46" fill="#17627a"/>
+    <text x="120" y="192" fill="#ffffff" text-anchor="middle" font-weight="bold">Biological</text>
+    <text x="120" y="208" fill="#ffffff" text-anchor="middle" font-weight="bold">mechanism</text>
+    <text x="280" y="192" fill="#ffffff" text-anchor="middle" font-weight="bold">Invariant it</text>
+    <text x="280" y="208" fill="#ffffff" text-anchor="middle" font-weight="bold">maintains</text>
+    <text x="440" y="200" fill="#ffffff" text-anchor="middle" font-weight="bold">Systems property</text>
+    <text x="600" y="192" fill="#ffffff" text-anchor="middle" font-weight="bold">Engineering</text>
+    <text x="600" y="208" fill="#ffffff" text-anchor="middle" font-weight="bold">analogue</text>
+    <text x="760" y="192" fill="#ffffff" text-anchor="middle" font-weight="bold">Open research</text>
+    <text x="760" y="208" fill="#ffffff" text-anchor="middle" font-weight="bold">gap</text>
+
+    <!-- Row 1 white -->
+    <rect x="40" y="216" width="800" height="60" fill="#ffffff" stroke="#7a8a90" stroke-width="0.5"/>
+    <text x="120" y="242" fill="#1a2b34" text-anchor="middle">Stigmergy</text>
+    <text x="120" y="258" fill="#1a2b34" text-anchor="middle">(ant trails)</text>
+    <text x="280" y="242" fill="#1a2b34" text-anchor="middle">Shared</text>
+    <text x="280" y="258" fill="#1a2b34" text-anchor="middle">environmental state</text>
+    <text x="440" y="250" fill="#1a2b34" text-anchor="middle">Eventual convergence</text>
+    <text x="600" y="250" fill="#1a2b34" text-anchor="middle">CRDTs, ACO routing</text>
+    <text x="760" y="242" fill="#1a2b34" text-anchor="middle">Bounded</text>
+    <text x="760" y="258" fill="#1a2b34" text-anchor="middle">staleness proofs</text>
+
+    <!-- Row 2 panel -->
+    <rect x="40" y="276" width="800" height="60" fill="#eef3f5" stroke="#7a8a90" stroke-width="0.5"/>
+    <text x="120" y="310" fill="#1a2b34" text-anchor="middle">Spiking neurons</text>
+    <text x="280" y="302" fill="#1a2b34" text-anchor="middle">Event-driven</text>
+    <text x="280" y="318" fill="#1a2b34" text-anchor="middle">activation</text>
+    <text x="440" y="310" fill="#1a2b34" text-anchor="middle">Energy proportionality</text>
+    <text x="600" y="310" fill="#1a2b34" text-anchor="middle">Neuromorphic chips</text>
+    <text x="760" y="310" fill="#1a2b34" text-anchor="middle">Training at scale</text>
+
+    <!-- Row 3 white -->
+    <rect x="40" y="336" width="800" height="60" fill="#ffffff" stroke="#7a8a90" stroke-width="0.5"/>
+    <text x="120" y="362" fill="#1a2b34" text-anchor="middle">Adaptive</text>
+    <text x="120" y="378" fill="#1a2b34" text-anchor="middle">immunity</text>
+    <text x="280" y="362" fill="#1a2b34" text-anchor="middle">Self vs</text>
+    <text x="280" y="378" fill="#1a2b34" text-anchor="middle">non-self boundary</text>
+    <text x="440" y="370" fill="#1a2b34" text-anchor="middle">Anomaly detection</text>
+    <text x="600" y="370" fill="#1a2b34" text-anchor="middle">Behavioral IDS</text>
+    <text x="760" y="362" fill="#1a2b34" text-anchor="middle">False-positive</text>
+    <text x="760" y="378" fill="#1a2b34" text-anchor="middle">control</text>
+
+    <!-- Row 4 panel -->
+    <rect x="40" y="396" width="800" height="60" fill="#eef3f5" stroke="#7a8a90" stroke-width="0.5"/>
+    <text x="120" y="430" fill="#1a2b34" text-anchor="middle">Homeostasis</text>
+    <text x="280" y="430" fill="#1a2b34" text-anchor="middle">Setpoint regulation</text>
+    <text x="440" y="422" fill="#1a2b34" text-anchor="middle">Graceful</text>
+    <text x="440" y="438" fill="#1a2b34" text-anchor="middle">load response</text>
+    <text x="600" y="422" fill="#1a2b34" text-anchor="middle">Autoscaling,</text>
+    <text x="600" y="438" fill="#1a2b34" text-anchor="middle">backpressure</text>
+    <text x="760" y="430" fill="#1a2b34" text-anchor="middle">Stability under lag</text>
+
+    <!-- Row 5 white -->
+    <rect x="40" y="456" width="800" height="60" fill="#ffffff" stroke="#7a8a90" stroke-width="0.5"/>
+    <text x="120" y="490" fill="#1a2b34" text-anchor="middle">Quorum sensing</text>
+    <text x="280" y="482" fill="#1a2b34" text-anchor="middle">Local</text>
+    <text x="280" y="498" fill="#1a2b34" text-anchor="middle">majority signal</text>
+    <text x="440" y="490" fill="#1a2b34" text-anchor="middle">Leaderless agreement</text>
+    <text x="600" y="482" fill="#1a2b34" text-anchor="middle">Gossip, Dynamo-style</text>
+    <text x="600" y="498" fill="#1a2b34" text-anchor="middle">replication</text>
+    <text x="760" y="490" fill="#1a2b34" text-anchor="middle">Byzantine settings</text>
+
+    <!-- Column dividers -->
+    <line x1="200" y1="170" x2="200" y2="516" stroke="#7a8a90" stroke-width="0.5"/>
+    <line x1="360" y1="170" x2="360" y2="516" stroke="#7a8a90" stroke-width="0.5"/>
+    <line x1="520" y1="170" x2="520" y2="516" stroke="#7a8a90" stroke-width="0.5"/>
+    <line x1="680" y1="170" x2="680" y2="516" stroke="#7a8a90" stroke-width="0.5"/>
+    <rect x="40" y="170" width="800" height="346" fill="none" stroke="#7a8a90" stroke-width="1"/>
+  </g>
+</svg>

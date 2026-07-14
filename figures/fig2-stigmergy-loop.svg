@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="620" fill="#ffffff"/>
+  <text x="40" y="44" font-size="24" font-weight="bold" fill="#1a2b34">Figure 2: Stigmergy as an indirect coordination loop</text>
+
+  <defs>
+    <marker id="arrTeal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#17627a"/>
+    </marker>
+  </defs>
+
+  <!-- Center circle -->
+  <circle cx="430" cy="330" r="105" fill="#eef3f5" stroke="#c8922e" stroke-width="3"/>
+  <text x="430" y="322" font-size="15" font-weight="bold" fill="#1a2b34" text-anchor="middle">Shared environment</text>
+  <text x="430" y="346" font-size="13" fill="#17627a" text-anchor="middle">(pheromone field /</text>
+  <text x="430" y="364" font-size="13" fill="#17627a" text-anchor="middle">CRDT state)</text>
+
+  <!-- 4 nodes (rounded rects) around the circle: top, right, bottom, left -->
+  <!-- Node 1: top -->
+  <rect x="320" y="110" width="220" height="60" rx="12" fill="#ffffff" stroke="#17627a" stroke-width="2"/>
+  <text x="430" y="146" font-size="15" fill="#1a2b34" text-anchor="middle">Agent acts locally</text>
+
+  <!-- Node 2: right -->
+  <rect x="640" y="290" width="210" height="80" rx="12" fill="#ffffff" stroke="#17627a" stroke-width="2"/>
+  <text x="745" y="322" font-size="14" fill="#1a2b34" text-anchor="middle">Modifies shared medium</text>
+  <text x="745" y="342" font-size="14" fill="#1a2b34" text-anchor="middle">(deposits signal)</text>
+
+  <!-- Node 3: bottom -->
+  <rect x="320" y="490" width="220" height="70" rx="12" fill="#ffffff" stroke="#17627a" stroke-width="2"/>
+  <text x="430" y="520" font-size="14" fill="#1a2b34" text-anchor="middle">Signal diffuses</text>
+  <text x="430" y="540" font-size="14" fill="#1a2b34" text-anchor="middle">and decays</text>
+
+  <!-- Node 4: left -->
+  <rect x="10" y="290" width="210" height="80" rx="12" fill="#ffffff" stroke="#17627a" stroke-width="2"/>
+  <text x="115" y="322" font-size="14" fill="#1a2b34" text-anchor="middle">Other agents</text>
+  <text x="115" y="342" font-size="14" fill="#1a2b34" text-anchor="middle">sense gradient</text>
+
+  <!-- Curved clockwise arrows between nodes -->
+  <!-- top -> right -->
+  <path d="M 540,150 C 640,175 690,235 745,285" fill="none" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <!-- right -> bottom -->
+  <path d="M 730,375 C 680,455 600,500 545,520" fill="none" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <!-- bottom -> left -->
+  <path d="M 315,522 C 210,502 150,450 110,375" fill="none" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  <!-- left -> top -->
+  <path d="M 130,285 C 175,230 235,175 320,150" fill="none" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+
+  <!-- Side caption -->
+  <rect x="600" y="440" width="270" height="120" rx="8" fill="#eef3f5" stroke="#7a8a90" stroke-width="1"/>
+  <text x="616" y="470" font-size="13" fill="#1a2b34">No agent-to-agent messaging.</text>
+  <text x="616" y="492" font-size="13" fill="#1a2b34">Coordination is mediated entirely</text>
+  <text x="616" y="514" font-size="13" fill="#1a2b34">by persistent, decaying</text>
+  <text x="616" y="536" font-size="13" fill="#1a2b34">environmental state.</text>
+</svg>

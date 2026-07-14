@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="880" height="480" fill="#ffffff"/>
+  <text x="40" y="44" font-size="23" font-weight="bold" fill="#1a2b34">Figure 3: An artificial immune system as an anomaly-detection pipeline</text>
+
+  <defs>
+    <marker id="arrTeal3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#17627a"/>
+    </marker>
+    <marker id="arrGrey3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7a8a90"/>
+    </marker>
+  </defs>
+
+  <!-- 5 pipeline boxes, left to right -->
+  <!-- Box 1 -->
+  <rect x="30" y="130" width="150" height="90" rx="8" fill="#eef3f5" stroke="#17627a" stroke-width="2"/>
+  <text x="105" y="165" font-size="13" fill="#1a2b34" text-anchor="middle">Observe traffic /</text>
+  <text x="105" y="184" font-size="13" fill="#1a2b34" text-anchor="middle">behavior</text>
+  <text x="105" y="203" font-size="13" fill="#17627a" text-anchor="middle">(antigens)</text>
+
+  <!-- Box 2 -->
+  <rect x="205" y="130" width="150" height="90" rx="8" fill="#eef3f5" stroke="#17627a" stroke-width="2"/>
+  <text x="280" y="170" font-size="13" fill="#1a2b34" text-anchor="middle">Define self</text>
+  <text x="280" y="189" font-size="13" fill="#1a2b34" text-anchor="middle">(normal baseline)</text>
+
+  <!-- Box 3 -->
+  <rect x="380" y="130" width="150" height="90" rx="8" fill="#eef3f5" stroke="#17627a" stroke-width="2"/>
+  <text x="455" y="160" font-size="13" fill="#1a2b34" text-anchor="middle">Negative selection</text>
+  <text x="455" y="179" font-size="13" fill="#1a2b34" text-anchor="middle">(prune self-matching</text>
+  <text x="455" y="198" font-size="13" fill="#1a2b34" text-anchor="middle">detectors)</text>
+
+  <!-- Box 4 -->
+  <rect x="555" y="130" width="150" height="90" rx="8" fill="#eef3f5" stroke="#17627a" stroke-width="2"/>
+  <text x="630" y="170" font-size="13" fill="#1a2b34" text-anchor="middle">Surviving detectors</text>
+  <text x="630" y="189" font-size="13" fill="#1a2b34" text-anchor="middle">flag non-self</text>
+
+  <!-- Box 5 -->
+  <rect x="730" y="130" width="150" height="90" rx="8" fill="#eef3f5" stroke="#17627a" stroke-width="2"/>
+  <text x="805" y="160" font-size="13" fill="#1a2b34" text-anchor="middle">Costimulation /</text>
+  <text x="805" y="179" font-size="13" fill="#1a2b34" text-anchor="middle">feedback confirms,</text>
+  <text x="805" y="198" font-size="13" fill="#1a2b34" text-anchor="middle">tunes memory</text>
+
+  <!-- Forward arrows -->
+  <line x1="182" y1="175" x2="203" y2="175" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal3)"/>
+  <line x1="357" y1="175" x2="378" y2="175" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal3)"/>
+  <line x1="532" y1="175" x2="553" y2="175" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal3)"/>
+  <line x1="707" y1="175" x2="728" y2="175" stroke="#17627a" stroke-width="2.5" marker-end="url(#arrTeal3)"/>
+
+  <!-- Detector repertoire node (below, under box 3) -->
+  <rect x="380" y="360" width="150" height="60" rx="8" fill="#ffffff" stroke="#7a8a90" stroke-width="2"/>
+  <text x="455" y="395" font-size="14" fill="#1a2b34" text-anchor="middle">detector repertoire</text>
+
+  <!-- Feedback arrow 1: last box -> detector repertoire ("immune memory") -->
+  <path d="M 805,220 C 805,330 620,390 532,390" fill="none" stroke="#7a8a90" stroke-width="2" marker-end="url(#arrGrey3)"/>
+  <text x="700" y="335" font-size="13" fill="#7a8a90" text-anchor="middle" font-style="italic">immune memory</text>
+
+  <!-- Feedback arrow 2: "clonal expansion" (repertoire -> box 4 flagging) -->
+  <path d="M 455,360 C 455,290 560,270 630,222" fill="none" stroke="#7a8a90" stroke-width="2" marker-end="url(#arrGrey3)"/>
+  <text x="470" y="300" font-size="13" fill="#7a8a90" text-anchor="middle" font-style="italic">clonal expansion</text>
+</svg>

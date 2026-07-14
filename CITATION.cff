@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Biomimetic Principles in Distributed and AI Systems: A Perspective on Nature-Inspired Architectures for Resilience and Efficiency"
+type: article
+authors:
+  - family-names: "Afsar"
+    given-names: "Haseeb Mohammed"
+    orcid: "https://orcid.org/0009-0000-4038-1272"
+abstract: >-
+  A perspective and narrative survey arguing that the durable value of biomimicry
+  in computing is structural rather than metaphorical. Introduces the Biomimetic
+  Systems Map, applies it to five mechanism families (stigmergy, spiking
+  computation, adaptive immunity, homeostasis, quorum sensing), and extracts four
+  transferable design invariants: locality, redundancy, feedback, and degeneracy.
+keywords:
+  - biomimicry
+  - bio-inspired computing
+  - distributed systems
+  - resilience
+  - energy efficiency
+  - neuromorphic computing
+  - artificial immune systems
+version: "0.1.0"
+date-released: "2026-07-14"
+license: CC-BY-4.0
