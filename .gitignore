@@ -3,3 +3,5 @@ figures/*.pdf
 *.log
 *.out
 .DS_Store
+
+figures/*.png
