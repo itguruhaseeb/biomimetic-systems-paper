@@ -22,7 +22,7 @@ Modern distributed and AI systems are converging on a small set of hard problems
 
 The engineering pressures on large-scale software have shifted. For two decades the dominant question was throughput: how to serve more requests per second. Today three other constraints bind at least as hard. First, **resilience**: systems are now large enough that partial failure is the normal operating condition, not an exception, so the useful question is not whether a component will fail but how the whole degrades when it does. Second, **coordination without a center**: as systems span regions and edge devices, any single point of coordination becomes both a latency floor and a failure domain. Third, **energy**: the marginal cost of computation is increasingly measured in watts and carbon, and the exponential appetite of large models has made energy proportionality a first-class design goal rather than an afterthought.
 
-These are not new problems for biology. A colony, an immune system, and a nervous system all solve versions of exactly these constraints, under far harsher conditions than any datacenter, using no central controller and a strict energy budget. It is therefore unsurprising that computer science has borrowed from biology repeatedly: ant colony optimization, genetic algorithms, artificial neural networks, artificial immune systems, and swarm robotics are all decades old. What is less common is a treatment that asks what these borrowings have *in common*, and whether the shared structure, rather than any single metaphor, is the part worth transferring.
+These are not new problems for biology. A colony, an immune system, and a nervous system all solve versions of exactly these constraints, under far harsher conditions than any datacenter, using no central controller and a strict energy budget. It is therefore unsurprising that computer science has borrowed from biology repeatedly: ant colony optimization, genetic algorithms, artificial neural networks, artificial immune systems, and swarm robotics are all decades old. What is less common is a treatment that asks what these borrowings have *in common*, and whether the shared structure, rather than any single metaphor, is the part worth transferring. An earlier, practitioner-facing sketch of this argument, aimed at a general engineering audience, appeared as an essay by the author [16]; the present paper formalizes that intuition and extends it into a testable framework.
 
 This perspective makes three contributions.
 
@@ -187,6 +187,8 @@ Biomimicry in computing is often presented as a catalog of clever metaphors. We 
 [14] Bramson, M., Lu, Y., and Prabhakar, B. "Randomized load balancing with general service time distributions." *SIGMETRICS*, 2010.
 
 [15] Edelman, G. M., and Gally, J. A. "Degeneracy and complexity in biological systems." *PNAS*, 98(24), 2001.
+
+[16] Afsar, H. M. "Biomimicry & the Evolution of Artificial Intelligence." *LinkedIn (essay)*, 2024. https://www.linkedin.com/pulse/biomimicry-evolution-artificial-intelligence-haseeb-afsar/
 
 ---
 
