@@ -20,11 +20,14 @@ keywords:
   - energy efficiency
   - neuromorphic computing
   - artificial immune systems
-version: "0.1.0"
+version: "0.2.0"
 date-released: "2026-07-14"
-doi: "10.5281/zenodo.21366228"
+doi: "10.5281/zenodo.21366227"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.21366228"
-    description: "Zenodo record for this preprint"
+    value: "10.5281/zenodo.21366227"
+    description: "Zenodo concept DOI (always resolves to the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.21366993"
+    description: "Zenodo version DOI for v0.2.0"
 license: CC-BY-4.0
