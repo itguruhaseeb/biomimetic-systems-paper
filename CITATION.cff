@@ -22,4 +22,9 @@ keywords:
   - artificial immune systems
 version: "0.1.0"
 date-released: "2026-07-14"
+doi: "10.5281/zenodo.21366228"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21366228"
+    description: "Zenodo record for this preprint"
 license: CC-BY-4.0

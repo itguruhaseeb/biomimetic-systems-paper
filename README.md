@@ -1,5 +1,7 @@
 # Biomimetic Principles in Distributed and AI Systems
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21366228.svg)](https://doi.org/10.5281/zenodo.21366228)
+
 A **Perspective and narrative survey** (preprint) on nature-inspired architectures for resilience and efficiency in modern distributed and AI systems.
 
 > **Status:** preprint, not peer reviewed. Prepared for arXiv (cs.DC / cs.NE / cs.SE) and for a later journal/perspective submission.
@@ -28,9 +30,9 @@ It is deliberately explicit that analogy is a source of hypotheses, not proofs, 
 
 ## Citing
 
-If a DOI is minted (Zenodo) it will appear here. Until then, cite the preprint:
+This preprint has a permanent Zenodo DOI: [**10.5281/zenodo.21366228**](https://doi.org/10.5281/zenodo.21366228).
 
-> Afsar, H. M. "Biomimetic Principles in Distributed and AI Systems: A Perspective on Nature-Inspired Architectures for Resilience and Efficiency." Preprint, 2026.
+> Afsar, H. M. (2026). *Biomimetic Principles in Distributed and AI Systems: A Perspective on Nature-Inspired Architectures for Resilience and Efficiency.* Zenodo. https://doi.org/10.5281/zenodo.21366228
 
 ## License
 
